@@ -4,7 +4,7 @@ our $VERSION = 'r1.0';
 
 =head1 CONTACT
 
-  Yulan Chen <shenyulan@genomics.cn>
+  Yulan Chen
 
 =head1 NAME
 
@@ -16,7 +16,7 @@ our $VERSION = 'r1.0';
 
 =head1 BUGS
 
-Mail suggestions and bug reports for build.pm to shenyulan@genomics.cn. Please include the version of build.pm, and the error information.
+Feedback suggestions and bug reports for build.pm to https://github.com/atcgnu/rdresearch/issues. Please include the version of build.pm, and the error information.
 
 =head1 COPYRIGHT AND LICENSE
 
