@@ -28,7 +28,7 @@ echo "VEP annotated"
 $perl $vep -i $resultdir/$md5vcf.vcf -o $resultdir/$md5vcf.VEP.vcf --offline --dir_cache $vep_cache --vcf --force_overwrite --quiet --fork 10 --hgvs --assembly GRCh37 --everything
 # Do screening
 echo "screening..."
-$perl $screening $md5vcf.VEP.vcf $config $sampledb $outdir $out
+$perl $screening $resultdir/$md5vcf.VEP.vcf $config $sampledb $outdir $out
 # rename md5.VEP.vcf to orginal filename.VEP.vcf
 mv $resultdir/$md5vcf.VEP.vcf $resultdir/$filename.VEP.vcf
 echo "finished"
